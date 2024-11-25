@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/SEM3/Game programming with dsa/FINAL/Final_Project/Content/BG_MUSIC.wav","C:/SEM3/Game programming with dsa/FINAL/Final_Project/Content/bin/DesktopGL/BG_MUSIC.xnb","SoundEffectProcessor","SoundEffectContent",12266574,12266601,1.3927685
+"C:/SEM3/Game programming with dsa/FINAL/Final_Project/Content/INDEX.png","C:/SEM3/Game programming with dsa/FINAL/Final_Project/Content/bin/DesktopGL/INDEX.xnb","TextureProcessor","Texture2DContent",1706638,6003085,0.3879217
+"C:/SEM3/Game programming with dsa/FINAL/Final_Project/Content/Menu.spritefont","C:/SEM3/Game programming with dsa/FINAL/Final_Project/Content/bin/DesktopGL/Menu.xnb","FontDescriptionProcessor","SpriteFontContent",2065,70690,0.184769
