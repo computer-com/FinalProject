@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SEM3\\Game programming with dsa\\FINAL\\Final_Project\\Final_Project.csproj": {}
+    "C:\\Users\\viren\\Group7\\Final_Project\\Final_Project.csproj": {}
   },
   "projects": {
-    "C:\\SEM3\\Game programming with dsa\\FINAL\\Final_Project\\Final_Project.csproj": {
+    "C:\\Users\\viren\\Group7\\Final_Project\\Final_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SEM3\\Game programming with dsa\\FINAL\\Final_Project\\Final_Project.csproj",
+        "projectUniqueName": "C:\\Users\\viren\\Group7\\Final_Project\\Final_Project.csproj",
         "projectName": "Final_Project",
-        "projectPath": "C:\\SEM3\\Game programming with dsa\\FINAL\\Final_Project\\Final_Project.csproj",
-        "packagesPath": "C:\\Users\\h2p21\\.nuget\\packages\\",
-        "outputPath": "C:\\SEM3\\Game programming with dsa\\FINAL\\Final_Project\\obj\\",
+        "projectPath": "C:\\Users\\viren\\Group7\\Final_Project\\Final_Project.csproj",
+        "packagesPath": "C:\\Users\\viren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\viren\\Group7\\Final_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\h2p21\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\viren\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
