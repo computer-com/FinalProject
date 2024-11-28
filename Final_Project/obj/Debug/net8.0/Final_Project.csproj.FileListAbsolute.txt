@@ -56,3 +56,4 @@ C:\Users\viren\Group7\Final_Project\obj\Debug\net8.0\Final_Project.pdb
 C:\Users\viren\Group7\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
 C:\Users\viren\Group7\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
 C:\Users\viren\Group7\Final_Project\bin\Debug\net8.0\Content\Maze-Level1.xnb
+C:\Users\viren\Group7\Final_Project\bin\Debug\net8.0\Content\Enemy.xnb

@@ -25,6 +25,15 @@ namespace Final_Project
         private List<Rectangle> wallRectangles;
         private Texture2D wallTexture;
 
+        //Enemy delcaration
+        private Enemy enemy;
+        private Texture2D enemyTexture;
+
+
+        //doorway points
+        private List<Vector2> doorwayPoints;
+        private Texture2D doorwayPointsTexture;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -52,6 +61,8 @@ namespace Final_Project
             Map = Content.Load<Texture2D>("Maze-Level1");
             Background_Music = Content.Load<SoundEffect>("BG_MUSIC");
             Menu = Content.Load<SpriteFont>("Menu");
+            //Enemy content loaded here
+            enemyTexture = Content.Load<Texture2D>("Enemy");
 
             Background_Music.Play();
 
@@ -62,26 +73,43 @@ namespace Final_Project
                 new Rectangle(20, 120, 1395, 6),
                 new Rectangle(20, _graphics.PreferredBackBufferHeight - 120, 1395, 6),
                 //coordinated of left and right outer walls
-                new Rectangle(20, 120, 6, 800),
+                new Rectangle(20, 120, 6, 40),
+                new Rectangle(20, 290, 6, 630),
                 new Rectangle(1415, 120, 6, 800),
 
                 //Now for the maze walls inside starting from vertical walls of map
-                new Rectangle(1045, 120, 6, 635), //long wall on right most
-                new Rectangle(360, 120, 6, 60), //left small edge on top
+                new Rectangle(1045, 260, 6, 495), //long wall on right most
+                new Rectangle(1045, 120, 6, 50),//small edge above right long wall
+                new Rectangle(360, 120, 6, 50), //left small edge on top
                 new Rectangle(360, 270, 6, 310),//left long wall in the middle
                 new Rectangle(1045, 855, 6, 60),//small edge below left long wall
                 new Rectangle(710, 740, 6, 180),//middle bottom wall
                 new Rectangle(710, 580, 6, 60),//middle small edge right above
 
                 //Now for the maze walls inside starting from horizontal walls of map
-                new Rectangle(20, 580, 110, 6), //left small edge on the middle
+                new Rectangle(20, 580, 90, 6), //left small edge on the middle
                 new Rectangle(235, 580, 200, 6),//middle long wall 
                 new Rectangle(540, 580, 505, 6),// right middle long wall
                 new Rectangle(1050, 470, 60, 6),//small on the right small edge 
                 new Rectangle(1200, 470, 215, 6),//rightmost edge wall
             };
+            //doorway points defining
+            doorwayPoints = new List<Vector2>
+            {
+                new Vector2(360, 215),
+                new Vector2(170,580),
+                new Vector2(480,580),
+                new Vector2(1045,805),
+                new Vector2(710,680),
+                new Vector2(1150,470),
+                new Vector2(1045, 210),
+            };
+            enemy = new Enemy(enemyTexture, new Vector2(200, 200), 4f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
             wallTexture = new Texture2D(GraphicsDevice, 1, 1);
             wallTexture.SetData(new[] {Color.White});
+
+            doorwayPointsTexture = new Texture2D(GraphicsDevice, 1, 1);
+            doorwayPointsTexture.SetData(new[] {Color.Blue});
         }
 
         protected override void Update(GameTime gameTime)
@@ -91,6 +119,12 @@ namespace Final_Project
 
             // TODO: Add your update logic here
             controller.Update(Keyboard.GetState(),this);
+
+            //enemy logic here
+            if (controller.state == GameState.Play)
+            {
+                enemy.Update(gameTime, wallRectangles);
+            }
 
             base.Update(gameTime);
         }
@@ -112,12 +146,19 @@ namespace Final_Project
                 case GameState.Play:
                     //DECLARED MAP TO DRAW METHOD
                     _spriteBatch.Draw(Map, new Vector2(0, 0), Color.LightBlue);
+                    //darwing enemy here
+                    enemy.Draw(_spriteBatch);
                     //drawing walls
                     foreach (var wall in wallRectangles)
                     {
                         _spriteBatch.Draw(wallTexture, wall, Color.Red);
                     }
+                    foreach (var point in doorwayPoints)
+                    {
+                        _spriteBatch.Draw(doorwayPointsTexture, new Rectangle((int)point.X, (int)point.Y, 10, 10), Color.Blue);
+                    }
                     break;
+                    
             }
             _spriteBatch.End();
 

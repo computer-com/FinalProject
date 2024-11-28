@@ -1,5 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "C:/Users/viren/Group7/Final_Project/Content/BG_MUSIC.wav","C:/Users/viren/Group7/Final_Project/Content/bin/DesktopGL/Content/BG_MUSIC.xnb","SoundEffectProcessor","SoundEffectContent",12266574,12266601,0.74619
+"C:/Users/viren/Group7/Final_Project/Content/Enemy.png","C:/Users/viren/Group7/Final_Project/Content/bin/DesktopGL/Content/Enemy.xnb","TextureProcessor","Texture2DContent",6283,26125,0.1527465
 "C:/Users/viren/Group7/Final_Project/Content/INDEX.png","C:/Users/viren/Group7/Final_Project/Content/bin/DesktopGL/Content/INDEX.xnb","TextureProcessor","Texture2DContent",1706638,6003085,0.2932023
 "C:/Users/viren/Group7/Final_Project/Content/Maze-Level1.png","C:/Users/viren/Group7/Final_Project/Content/bin/DesktopGL/Content/Maze-Level1.xnb","TextureProcessor","Texture2DContent",5011,6003085,0.2585202
 "C:/Users/viren/Group7/Final_Project/Content/Menu.spritefont","C:/Users/viren/Group7/Final_Project/Content/bin/DesktopGL/Content/Menu.xnb","FontDescriptionProcessor","SpriteFontContent",2065,70690,0.1105804

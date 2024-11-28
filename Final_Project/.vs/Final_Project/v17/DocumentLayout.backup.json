@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\group7\\final_project\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\group7\\final_project\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -33,18 +37,27 @@
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\viren\\Group7\\Final_Project\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\Users\\viren\\Group7\\Final_Project\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:01:04.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\viren\\Group7\\Final_Project\\Controller.cs",
               "RelativeDocumentMoniker": "Controller.cs",
               "ToolTip": "C:\\Users\\viren\\Group7\\Final_Project\\Controller.cs",
               "RelativeToolTip": "Controller.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA5wBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T22:42:09.508Z",
               "EditorCaption": ""
@@ -57,7 +70,7 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "C:\\Users\\viren\\Group7\\Final_Project\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T22:41:47.261Z",
               "EditorCaption": ""
