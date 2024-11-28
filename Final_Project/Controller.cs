@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Input;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,26 @@ namespace Final_Project
 
     internal class Controller
     {
+        public TimeSpan elapsedTime;
+        public int SecondElapsed;
+        public bool Health;
+        public String Messages;
+
         public GameState state { get; set; } = GameState.Menu;
 
-        public void Update(KeyboardState keyboardState, Game1 game)
+        public Controller()
         {
+            this.elapsedTime = TimeSpan.Zero;
+            this.SecondElapsed = 0;
+            this.Health = false;
+        }
+
+
+
+        public void Update(KeyboardState keyboardState, Game1 game ,GameTime gameTime)
+        {
+            UpdateTimer(gameTime);
+
             switch (state)
             {
                 case GameState.Menu:
@@ -27,6 +44,8 @@ namespace Final_Project
                     GameInput(keyboardState, game);
                     break;
             }
+
+            EndGame();
         }
 
         private void MenuInput(KeyboardState keyboardState, Game1 game)
@@ -35,6 +54,7 @@ namespace Final_Project
             if (keyboardState.IsKeyDown(Keys.Enter))
             {
                 state = GameState.Play;
+                SecondElapsed = 0;
             }
             //exit the game
             else if (keyboardState.IsKeyDown(Keys.Escape))
@@ -50,6 +70,26 @@ namespace Final_Project
             {
                 game.Exit();
             }
+        }
+
+        public void UpdateTimer(GameTime gameTime)
+        {
+            elapsedTime += gameTime.ElapsedGameTime;
+            if (elapsedTime.TotalSeconds >= 1)
+            {
+                SecondElapsed++;
+                elapsedTime = TimeSpan.Zero;
+            }
+        }
+
+        public void EndGame()
+        {
+            if (SecondElapsed >= 10 && state == GameState.Play)
+            {
+                state = GameState.Menu;
+                Messages = "GameOver ! Time up";
+            }
+
         }
     }
 }

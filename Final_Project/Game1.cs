@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System;
 using System.Collections.Generic;
 
 namespace Final_Project
@@ -17,13 +18,15 @@ namespace Final_Project
         SoundEffect Background_Music;
         //Adding Map
         Texture2D Map;
-
-        //Controller initialization
-        Controller controller = new Controller();
+        //Timer for game
+        private TimeSpan elapsedTime;
 
         //Wall Delclaration
         private List<Rectangle> wallRectangles;
         private Texture2D wallTexture;
+
+        //Controller initialization
+        Controller controller = new Controller();
 
         public Game1()
         {
@@ -38,6 +41,8 @@ namespace Final_Project
             _graphics.PreferredBackBufferWidth = 1450;
             _graphics.PreferredBackBufferHeight = 1035;
             _graphics.ApplyChanges();
+
+            elapsedTime = TimeSpan.Zero;
             base.Initialize();
         }
 
@@ -90,7 +95,7 @@ namespace Final_Project
                 Exit();
 
             // TODO: Add your update logic here
-            controller.Update(Keyboard.GetState(),this);
+            controller.Update(Keyboard.GetState(),this,gameTime);
 
             base.Update(gameTime);
         }
@@ -105,9 +110,14 @@ namespace Final_Project
             {
                 case GameState.Menu:
                     _spriteBatch.Draw(Index, new Vector2(0, 0), Color.White);
-                    _spriteBatch.DrawString(Menu, "Play ( Press Enter)", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 300), Color.GhostWhite);
-                    _spriteBatch.DrawString(Menu, "Exit ( Press Esc  )", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 250), Color.WhiteSmoke);
-                    _spriteBatch.DrawString(Menu, "WELCOME TO BACKROOM : THE HAUNT", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 250, _graphics.PreferredBackBufferHeight / 2 + 250), Color.White);
+                    _spriteBatch.DrawString(Menu, "Play ( Press Enter)", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 300), Color.Red);
+                    _spriteBatch.DrawString(Menu, "Exit ( Press Esc  )", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 250), Color.Red);
+                    _spriteBatch.DrawString(Menu, "BACKROOM : THE HAUNT", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 + 250), Color.Red);
+                    //Message of gameover
+                    if (!string.IsNullOrEmpty(controller.Messages))
+                    {
+                        _spriteBatch.DrawString(Menu, controller.Messages, new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 150), Color.Red);
+                    }
                     break;
                 case GameState.Play:
                     //DECLARED MAP TO DRAW METHOD
@@ -117,7 +127,10 @@ namespace Final_Project
                     {
                         _spriteBatch.Draw(wallTexture, wall, Color.Red);
                     }
+                    //Timer
+                    _spriteBatch.DrawString(Menu, $"Time Remaining: {10 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
                     break;
+
             }
             _spriteBatch.End();
 
