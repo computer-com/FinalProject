@@ -13,6 +13,7 @@ namespace Final_Project
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         //Images , Font, SoundEffect
+        Texture2D Player;
         Texture2D Index;
         SpriteFont Menu;
         SoundEffect Background_Music;
@@ -20,7 +21,7 @@ namespace Final_Project
         Texture2D Map;
         //Timer for game
         private TimeSpan elapsedTime;
-
+        private Player player;
         //Wall Delclaration
         private List<Rectangle> wallRectangles;
         private Texture2D wallTexture;
@@ -49,15 +50,16 @@ namespace Final_Project
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            
 
             // TODO: use this.Content to load your game content here
             Index = Content.Load<Texture2D>("INDEX");
             //Loading Map As Content
             Map = Content.Load<Texture2D>("Maze-Level1");
+            Player = Content.Load<Texture2D>("PLAYER");
             Background_Music = Content.Load<SoundEffect>("BG_MUSIC");
             Menu = Content.Load<SpriteFont>("Menu");
-
+            player = new Player(new Vector2(100, 150), 5f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
             Background_Music.Play();
 
             //Loading walls with coordinates
@@ -127,6 +129,8 @@ namespace Final_Project
                     {
                         _spriteBatch.Draw(wallTexture, wall, Color.Red);
                     }
+                    _spriteBatch.Draw(Player, new Rectangle((int)player.Position.X, (int)player.Position.Y, 50, 50), Color.White);
+
                     //Timer
                     _spriteBatch.DrawString(Menu, $"Time Remaining: {10 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
                     break;
