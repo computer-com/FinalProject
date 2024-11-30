@@ -15,6 +15,7 @@ namespace Final_Project
         //Images , Font, SoundEffect
         Texture2D Player;
         Texture2D Index;
+        Texture2D Key;
         SpriteFont Menu;
         SoundEffect Background_Music;
         //Adding Map
@@ -66,9 +67,10 @@ namespace Final_Project
             //Loading Map As Content
             Map = Content.Load<Texture2D>("Maze-Level1");
             Player = Content.Load<Texture2D>("blue plater");
+            Key = Content.Load<Texture2D>("KEY");
             Background_Music = Content.Load<SoundEffect>("BG_MUSIC");
             Menu = Content.Load<SpriteFont>("Menu");
-            player = new Player(new Vector2(100, 150), 5f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
+            player = new Player(new Vector2(100, 150), 5f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight , 20);
 
             //enemy content load
             enemyTexture = Content.Load<Texture2D>("Enemy");
@@ -80,7 +82,8 @@ namespace Final_Project
             wallRectangles = new List<Rectangle>
             {
                 //coordinated of top and bottom outer walls
-                new Rectangle(20, 120, 1395, 6),
+                new Rectangle(20, 120, 1095, 6),
+                new Rectangle(1220, 120, 195, 6), 
                 new Rectangle(20, _graphics.PreferredBackBufferHeight - 120, 1395, 6),
                 //coordinated of left and right outer walls
                 new Rectangle(20, 120, 6, 800),
@@ -127,11 +130,12 @@ namespace Final_Project
                 Exit();
 
             // TODO: Add your update logic here
-            controller.Update(Keyboard.GetState(),this,gameTime);
+            controller.Update(Keyboard.GetState(),this,gameTime,player);
 
             //enemy logic here
             if (controller.state == GameState.Play)
             {
+                player.Update(gameTime, wallRectangles);
                 enemy.Update(gameTime, wallRectangles);
             }
 
@@ -148,7 +152,8 @@ namespace Final_Project
             {
                 case GameState.Menu:
                     _spriteBatch.Draw(Index, new Vector2(0, 0), Color.White);
-                    _spriteBatch.DrawString(Menu, "Play ( Press Enter)", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 300), Color.Red);
+                    string buttonText = controller.HasExited ? "Replay ( Press Enter)" : "Play ( Press Enter)";
+                    _spriteBatch.DrawString(Menu, buttonText, new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 300), Color.Red);
                     _spriteBatch.DrawString(Menu, "Exit ( Press Esc  )", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 - 250), Color.Red);
                     _spriteBatch.DrawString(Menu, "BACKROOM : THE HAUNT", new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, _graphics.PreferredBackBufferHeight / 2 + 250), Color.Red);
                     //Message of gameover
@@ -160,7 +165,6 @@ namespace Final_Project
                 case GameState.Play:
                     //DECLARED MAP TO DRAW METHOD
                     _spriteBatch.Draw(Map, new Vector2(0, 0), Color.LightBlue);
-
                     //enemy draw
                     enemy.Draw(_spriteBatch);
                     //drawing walls
@@ -174,9 +178,21 @@ namespace Final_Project
                     {
                         _spriteBatch.Draw(doorwayPointsTexture, new Rectangle((int)point.X, (int)point.Y, 10, 10), Color.Blue);
                     }
+                    //Keys
+                    if (!controller.KeyCollected)
+                    {
+                        _spriteBatch.Draw(Key, new Rectangle((int)controller.KeyPosition.X, (int)controller.KeyPosition.Y, 30, 30), Color.White);
+                    }
+                    Color exitColor = controller.KeyCollected ? Color.Green : Color.Red;
+                    _spriteBatch.DrawString(Menu, " EXIT", new Vector2(1120, 100), exitColor);
+                    //Message
+                    if (!string.IsNullOrEmpty(controller.Messages)) 
+                    {
+                        _spriteBatch.DrawString(Menu, controller.Messages, new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, 20), Color.Red);
 
+                    }
                     //Timer
-                    _spriteBatch.DrawString(Menu, $"Time Remaining: {10 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
+                    _spriteBatch.DrawString(Menu, $"Time Remaining: {100 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
                     break;
 
             }

@@ -15,15 +15,18 @@ namespace Final_Project
         private int windowWidth;
         private int windowHeight;
         private int radius;
+        public int Radius { get; private set; }
+        private Vector2 initialPosition;
 
 
-        public Player(Vector2 initialPosition, float speed, int windowWidth, int windowHeight)
+        public Player(Vector2 initialPosition, float speed, int windowWidth, int windowHeight, int radius)
         {
+            this.initialPosition = initialPosition;
             Position = initialPosition;
             Speed = speed;
             this.windowWidth = windowWidth;
             this.windowHeight = windowHeight;
-
+            this.Radius = radius;
         }
 
         public void Update(GameTime gameTime, List<Rectangle> walls)
@@ -82,6 +85,11 @@ namespace Final_Project
             {
                 Position = newPosition;
             }
+        }
+
+        public void ResetPosition()
+        {
+            Position = initialPosition;
         }
     }
 }

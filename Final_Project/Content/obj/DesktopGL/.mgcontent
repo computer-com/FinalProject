@@ -4,14 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/viren/Desktop/Level 3/Game Programming Project/Group7/Final_Project/Content/BG_MUSIC.wav</File>
-    <File>C:/Users/viren/Desktop/Level 3/Game Programming Project/Group7/Final_Project/Content/blue plater.png</File>
-    <File>C:/Users/viren/Desktop/Level 3/Game Programming Project/Group7/Final_Project/Content/Enemy.png</File>
-    <File>C:/Users/viren/Desktop/Level 3/Game Programming Project/Group7/Final_Project/Content/INDEX.png</File>
-    <File>C:/Users/viren/Desktop/Level 3/Game Programming Project/Group7/Final_Project/Content/Maze-Level1.png</File>
-    <File>C:/Users/viren/Desktop/Level 3/Game Programming Project/Group7/Final_Project/Content/Menu.spritefont</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/BG_MUSIC.wav</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/blue plater.png</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/Enemy.png</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/INDEX.png</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/KEY.png</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/Maze-Level1.png</File>
+    <File>C:/SEM3/Game programming with dsa/FINAL_GIT/Group7/Final_Project/Content/Menu.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
