@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\yashp\\onedrive\\desktop\\conestoga\\sem 3\\game\\final project\\group7\\final_project\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\desktop\\level 3\\game programming project\\group7\\final_project\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\desktop\\level 3\\game programming project\\group7\\final_project\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\yashp\\onedrive\\desktop\\conestoga\\sem 3\\game\\final project\\group7\\final_project\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\desktop\\level 3\\game programming project\\group7\\final_project\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\yashp\\onedrive\\desktop\\conestoga\\sem 3\\game\\final project\\group7\\final_project\\final_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\desktop\\level 3\\game programming project\\group7\\final_project\\final_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:final_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\yashp\\onedrive\\desktop\\conestoga\\sem 3\\game\\final project\\group7\\final_project\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\viren\\desktop\\level 3\\game programming project\\group7\\final_project\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\yashp\\onedrive\\desktop\\conestoga\\sem 3\\game\\final project\\group7\\final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Final_Project",
-              "DocumentMoniker": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Final_Project.csproj",
-              "RelativeDocumentMoniker": "Final_Project.csproj",
-              "ToolTip": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Final_Project.csproj*",
-              "RelativeToolTip": "Final_Project.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-29T00:57:41.248Z",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwIAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:33:14.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Final_Project.csproj",
+              "DocumentMoniker": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Final_Project.csproj",
+              "RelativeDocumentMoniker": "Final_Project.csproj",
+              "ToolTip": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Final_Project.csproj",
+              "RelativeToolTip": "Final_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T00:57:41.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Player.cs",
+              "ToolTip": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T00:57:53.159Z",
               "EditorCaption": ""
@@ -61,37 +85,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T04:06:48.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Controller.cs",
-              "DocumentMoniker": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Controller.cs",
+              "DocumentMoniker": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Controller.cs",
               "RelativeDocumentMoniker": "Controller.cs",
-              "ToolTip": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Controller.cs",
+              "ToolTip": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Controller.cs",
               "RelativeToolTip": "Controller.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAA+wF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T22:42:09.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T22:42:09.508Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Game1.cs",
+              "ToolTip": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T22:41:47.261Z",
               "EditorCaption": ""

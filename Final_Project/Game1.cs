@@ -29,6 +29,15 @@ namespace Final_Project
         //Controller initialization
         Controller controller = new Controller();
 
+        //enemy intitalization
+        private Enemy enemy;
+        private Texture2D enemyTexture;
+
+        //doorway points
+        private List<Vector2> doorwayPoints;
+        private Texture2D doorwayPointsTexture;
+
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -56,10 +65,15 @@ namespace Final_Project
             Index = Content.Load<Texture2D>("INDEX");
             //Loading Map As Content
             Map = Content.Load<Texture2D>("Maze-Level1");
-            Player = Content.Load<Texture2D>("PLAYER");
+            Player = Content.Load<Texture2D>("blue plater");
             Background_Music = Content.Load<SoundEffect>("BG_MUSIC");
             Menu = Content.Load<SpriteFont>("Menu");
             player = new Player(new Vector2(100, 150), 5f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
+
+            //enemy content load
+            enemyTexture = Content.Load<Texture2D>("Enemy");
+            enemy = new Enemy(enemyTexture, new Vector2(100, 300), 4f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
+
             Background_Music.Play();
 
             //Loading walls with coordinates
@@ -87,6 +101,22 @@ namespace Final_Project
                 new Rectangle(1050, 470, 60, 6),//small on the right small edge 
                 new Rectangle(1200, 470, 215, 6),//rightmost edge wall
             };
+            //doorway points defining
+            doorwayPoints = new List<Vector2>
+            {
+                new Vector2(360, 215),
+                new Vector2(170,580),
+                new Vector2(480,580),
+                new Vector2(1045,805),
+                new Vector2(710,680),
+                new Vector2(1150,470),
+                new Vector2(1045, 210),
+            };
+            enemy = new Enemy(enemyTexture, new Vector2(200, 200), 4f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
+            //giving door way points blue color for reference point temp.
+            doorwayPointsTexture = new Texture2D(GraphicsDevice, 1, 1);
+            doorwayPointsTexture.SetData(new[] { Color.Blue });
+
             wallTexture = new Texture2D(GraphicsDevice, 1, 1);
             wallTexture.SetData(new[] {Color.White});
         }
@@ -98,6 +128,12 @@ namespace Final_Project
 
             // TODO: Add your update logic here
             controller.Update(Keyboard.GetState(),this,gameTime);
+
+            //enemy logic here
+            if (controller.state == GameState.Play)
+            {
+                enemy.Update(gameTime, wallRectangles);
+            }
 
             base.Update(gameTime);
         }
@@ -124,12 +160,20 @@ namespace Final_Project
                 case GameState.Play:
                     //DECLARED MAP TO DRAW METHOD
                     _spriteBatch.Draw(Map, new Vector2(0, 0), Color.LightBlue);
+
+                    //enemy draw
+                    enemy.Draw(_spriteBatch);
                     //drawing walls
                     foreach (var wall in wallRectangles)
                     {
                         _spriteBatch.Draw(wallTexture, wall, Color.Red);
                     }
                     _spriteBatch.Draw(Player, new Rectangle((int)player.Position.X, (int)player.Position.Y, 50, 50), Color.White);
+                    //for doorway points
+                    foreach (var point in doorwayPoints)
+                    {
+                        _spriteBatch.Draw(doorwayPointsTexture, new Rectangle((int)point.X, (int)point.Y, 10, 10), Color.Blue);
+                    }
 
                     //Timer
                     _spriteBatch.DrawString(Menu, $"Time Remaining: {10 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
