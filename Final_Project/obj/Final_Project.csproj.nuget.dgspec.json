@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Final_Project.csproj": {}
+    "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Final_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Final_Project.csproj": {
+    "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Final_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Final_Project.csproj",
+        "projectUniqueName": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Final_Project.csproj",
         "projectName": "Final_Project",
-        "projectPath": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\Final_Project.csproj",
-        "packagesPath": "C:\\Users\\yashp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yashp\\OneDrive\\Desktop\\conestoga\\sem 3\\game\\Final Project\\Group7\\Final_Project\\obj\\",
+        "projectPath": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\Final_Project.csproj",
+        "packagesPath": "C:\\Users\\viren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\viren\\Desktop\\Level 3\\Game Programming Project\\Group7\\Final_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yashp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\viren\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
