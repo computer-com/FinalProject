@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace Final_Project
 {
@@ -19,9 +20,13 @@ namespace Final_Project
         public int SecondElapsed;
         public bool KeyCollected;
         public String Messages;
+        public int score;
+
         public bool HasExited { get; private set; }
 
         public GameState state { get; set; } = GameState.Menu;
+        public List<Vector2> CoinPositions { get; set; }
+        public float CoinRadius { get; set; } = 15;
         public Vector2 KeyPosition {  get; set; }
         public float KeyRadius { get; set; } = 20;
         public Vector2 ExitPoint { get; set; }
@@ -33,8 +38,21 @@ namespace Final_Project
             this.SecondElapsed = 0;
             this.KeyCollected = false;
             this.HasExited = false;
+            this.CoinPositions = new List<Vector2>();
+            GenerateCoins();
             GenerateKey();
             GenerateExit();
+        }
+        private void GenerateCoins()
+        {
+            Random rand = new Random();
+            CoinPositions.Clear();
+            for (int i = 0; i < 8; i++)
+            {
+                int x = rand.Next(100, 1300);
+                int y = rand.Next(100, 700);
+                CoinPositions.Add(new Vector2(x, y));
+            }
         }
 
         private void GenerateKey()
@@ -75,9 +93,11 @@ namespace Final_Project
             {
                 state = GameState.Play;
                 SecondElapsed = 0;
+                score = 0;
                 HasExited = false;
                 KeyCollected = false;
                 GenerateKey();
+                GenerateCoins();
                 player.ResetPosition();
             }
             //exit the game
@@ -93,6 +113,17 @@ namespace Final_Project
             if (keyboardState.IsKeyDown(Keys.Escape))
             {
                 game.Exit();
+            }
+            //Coins
+            for (int i = 0; i < CoinPositions.Count; i++)
+            {
+                //Coins Collision
+                if (IsCollision(player.Position, CoinPositions[i], player.Radius, CoinRadius))
+                {
+                    CoinPositions.RemoveAt(i);
+                    score++;
+                    break;
+                }
             }
             //Collision for key
             if (IsCollision(player.Position, KeyPosition, player.Radius, KeyRadius))
@@ -138,7 +169,7 @@ namespace Final_Project
 
         public void EndGame()
         {
-            if (SecondElapsed >= 100 && state == GameState.Play)
+            if (SecondElapsed >= 50 && state == GameState.Play)
             {
                 state = GameState.Menu;
                 Messages = "GameOver ! Time up";
