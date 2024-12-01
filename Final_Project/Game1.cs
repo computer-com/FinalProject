@@ -16,6 +16,7 @@ namespace Final_Project
         Texture2D Player;
         Texture2D Index;
         Texture2D Key;
+        Texture2D coin;
         SpriteFont Menu;
         SoundEffect Background_Music;
         //Adding Map
@@ -60,12 +61,14 @@ namespace Final_Project
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+          
+            coin = Content.Load<Texture2D>("Coin");
+
 
             // TODO: use this.Content to load your game content here
             Index = Content.Load<Texture2D>("INDEX");
             //Loading Map As Content
-            Map = Content.Load<Texture2D>("Maze-Level1");
+            //Map = Content.Load<Texture2D>("Maze-Level1");
             Player = Content.Load<Texture2D>("blue plater");
             Key = Content.Load<Texture2D>("KEY");
             Background_Music = Content.Load<SoundEffect>("BG_MUSIC");
@@ -163,8 +166,16 @@ namespace Final_Project
                     }
                     break;
                 case GameState.Play:
+
+
+                    // Coins
+                    foreach (var coins in controller.CoinPositions)
+                    {
+                        _spriteBatch.Draw(coin, new Rectangle((int)coins.X, (int)coins.Y, 40, 40), Color.White);
+                    }
+
                     //DECLARED MAP TO DRAW METHOD
-                    _spriteBatch.Draw(Map, new Vector2(0, 0), Color.LightBlue);
+                    //_spriteBatch.Draw(Map, new Vector2(0, 0), Color.LightBlue);
                     //enemy draw
                     enemy.Draw(_spriteBatch);
                     //drawing walls
@@ -191,8 +202,10 @@ namespace Final_Project
                         _spriteBatch.DrawString(Menu, controller.Messages, new Vector2(_graphics.PreferredBackBufferWidth / 2 - 150, 20), Color.Red);
 
                     }
+                    //Score
+                    _spriteBatch.DrawString(Menu, $"Score : {controller.score}", new Vector2(1200, 20), Color.Red);
                     //Timer
-                    _spriteBatch.DrawString(Menu, $"Time Remaining: {100 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
+                    _spriteBatch.DrawString(Menu, $"Time Remaining: {50 - controller.SecondElapsed} seconds",new Vector2(20,20),Color.Red);
                     break;
 
             }
