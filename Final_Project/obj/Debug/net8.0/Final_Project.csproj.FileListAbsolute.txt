@@ -87,3 +87,136 @@ C:\SEM3\Game programming with dsa\FINAL_GIT\FinalProject\Final_Project\obj\Debug
 C:\SEM3\Game programming with dsa\FINAL_GIT\FinalProject\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
 C:\SEM3\Game programming with dsa\FINAL_GIT\FinalProject\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
 C:\SEM3\Game programming with dsa\FINAL_GIT\FinalProject\Final_Project\bin\Debug\net8.0\Content\PLAYER.xnb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\BG_MUSIC.xnb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\INDEX.xnb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\Maze-Level1.xnb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\Menu.xnb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.exe
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.deps.json
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.runtimeconfig.json
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.pdb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\NVorbis.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.AssemblyReference.cache
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfoInputs.cache
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfo.cs
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.CoreCompileInputs.cache
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.sourcelink.json
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Pr.95B01FB4.Up2Date
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\refint\Final_Project.dll
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.pdb
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
+C:\Users\yashp\OneDrive\Desktop\conestoga\sem 3\game\Final Project\Group7\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Content\BG_MUSIC.xnb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Content\INDEX.xnb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Content\Maze-Level1.xnb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Content\Menu.xnb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.exe
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.deps.json
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.runtimeconfig.json
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.pdb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\NVorbis.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.AssemblyReference.cache
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfoInputs.cache
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfo.cs
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.CoreCompileInputs.cache
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.sourcelink.json
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Pr.95B01FB4.Up2Date
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\refint\Final_Project.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.pdb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Content\Enemy.xnb
+C:\Users\viren\Desktop\Level 3\Game Programming Project\Group7\Final_Project\bin\Debug\net8.0\Content\blue plater.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\BG_MUSIC.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\blue plater.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\Enemy.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\INDEX.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\Maze-Level1.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\Menu.xnb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Final_Project.exe
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Final_Project.deps.json
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Final_Project.runtimeconfig.json
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Final_Project.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Final_Project.pdb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\NVorbis.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.AssemblyReference.cache
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfoInputs.cache
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfo.cs
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.CoreCompileInputs.cache
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.sourcelink.json
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Pr.95B01FB4.Up2Date
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\refint\Final_Project.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.pdb
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
+C:\SEM3\Game programming with dsa\FINAL_GIT\Group7\Final_Project\bin\Debug\net8.0\Content\KEY.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.AssemblyReference.cache
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfoInputs.cache
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.AssemblyInfo.cs
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.csproj.CoreCompileInputs.cache
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.sourcelink.json
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\refint\Final_Project.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.pdb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\BG_MUSIC.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\blue plater.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\Coin.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\Enemy.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\INDEX.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\KEY.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\Maze-Level1.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\Menu.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.exe
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.deps.json
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.runtimeconfig.json
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Final_Project.pdb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\MonoGame.Framework.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\NVorbis.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Pr.95B01FB4.Up2Date
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\CLICK.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\COINCOLLECT.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\GAMEOVER.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\KEYCOLLECT.xnb
