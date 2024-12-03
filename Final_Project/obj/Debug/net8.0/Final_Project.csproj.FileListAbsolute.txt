@@ -216,3 +216,7 @@ E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Fin
 E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Pr.95B01FB4.Up2Date
 E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\Final_Project.genruntimeconfig.cache
 E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\obj\Debug\net8.0\ref\Final_Project.dll
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\CLICK.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\COINCOLLECT.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\GAMEOVER.xnb
+E:\conestoga\Sem 3\Game Programming with Data Structure\Final Project\Group7\Final_Project\bin\Debug\net8.0\Content\KEYCOLLECT.xnb

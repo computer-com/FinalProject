@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,10 @@ namespace Final_Project
         public bool KeyCollected;
         public String Messages;
         public int score;
+        public SoundEffect KeyCollect;
+        public SoundEffect CoinCollect;
+        public SoundEffect KeyPress;
+        public SoundEffect GameOver;
 
         public bool HasExited { get; private set; }
 
@@ -32,13 +37,17 @@ namespace Final_Project
         public Vector2 ExitPoint { get; set; }
         public float ExitPointRadius { get; set; } = 50;
 
-        public Controller()
+        public Controller(SoundEffect coinCollect, SoundEffect keyCollect, SoundEffect gameOver, SoundEffect keyPress)
         {
             this.elapsedTime = TimeSpan.Zero;
             this.SecondElapsed = 0;
             this.KeyCollected = false;
             this.HasExited = false;
             this.CoinPositions = new List<Vector2>();
+            this.CoinCollect = coinCollect;
+            this.KeyPress = keyPress;
+            this.GameOver = gameOver;
+            this.KeyCollect = keyCollect;
             GenerateCoins();
             GenerateKey();
             GenerateExit();
@@ -91,6 +100,7 @@ namespace Final_Project
             //start playing the game
             if (keyboardState.IsKeyDown(Keys.Enter))
             {
+                KeyPress.Play();
                 state = GameState.Play;
                 SecondElapsed = 0;
                 score = 0;
@@ -103,6 +113,7 @@ namespace Final_Project
             //exit the game
             else if (keyboardState.IsKeyDown(Keys.Escape))
             {
+                KeyPress.Play();
                 game.Exit();
             }
         }
@@ -112,6 +123,7 @@ namespace Final_Project
             //exit the game
             if (keyboardState.IsKeyDown(Keys.Escape))
             {
+                KeyPress.Play();
                 game.Exit();
             }
             //Coins
@@ -122,6 +134,7 @@ namespace Final_Project
                 {
                     CoinPositions.RemoveAt(i);
                     score++;
+                    CoinCollect.Play();
                     break;
                 }
             }
@@ -129,6 +142,7 @@ namespace Final_Project
             if (IsCollision(player.Position, KeyPosition, player.Radius, KeyRadius))
             {
                 KeyCollected = true;
+                KeyCollect.Play();
                 Messages = "You collected the key!";
             }
             if (!KeyCollected && IsCollision(player.Position, ExitPoint, player.Radius, ExitPointRadius))
@@ -136,15 +150,13 @@ namespace Final_Project
                 Messages = "You need to collect the key to exit!";
                 return;
             }
-            if (IsCollision(player.Position, KeyPosition, player.Radius, KeyRadius))
-            {
-                KeyCollected = true;
-            }
+
             //Exit Game
             if (KeyCollected && IsCollision(player.Position, ExitPoint, player.Radius, ExitPointRadius))
             {
                 state = GameState.Menu;
                 HasExited = true;
+                GameOver.Play();
                 Messages = "You Escaped";
             }
 
@@ -172,6 +184,7 @@ namespace Final_Project
             if (SecondElapsed >= 50 && state == GameState.Play)
             {
                 state = GameState.Menu;
+                GameOver.Play();
                 Messages = "GameOver ! Time up";
             }
 
