@@ -31,6 +31,12 @@
 /processorParam:TextureFormat=Color
 /build:blue plater.png
 
+#begin CLICK.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:CLICK.wav
+
 #begin Coin.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -43,6 +49,12 @@
 /processorParam:TextureFormat=Color
 /build:Coin.png
 
+#begin COINCOLLECT.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:COINCOLLECT.wav
+
 #begin Enemy.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -54,6 +66,12 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Enemy.png
+
+#begin GAMEOVER.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:GAMEOVER.wav
 
 #begin INDEX.png
 /importer:TextureImporter
@@ -78,6 +96,12 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:KEY.png
+
+#begin KEYCOLLECT.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:KEYCOLLECT.wav
 
 #begin Maze-Level1.png
 /importer:TextureImporter

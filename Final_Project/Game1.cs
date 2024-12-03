@@ -19,6 +19,10 @@ namespace Final_Project
         Texture2D coin;
         SpriteFont Menu;
         SoundEffect Background_Music;
+        SoundEffect GameOver;
+        SoundEffect CoinCollect;
+        SoundEffect KeyCollect;
+        SoundEffect KeyPress;
         //Adding Map
         Texture2D Map;
         //Timer for game
@@ -29,7 +33,7 @@ namespace Final_Project
         private Texture2D wallTexture;
 
         //Controller initialization
-        Controller controller = new Controller();
+        Controller controller;
 
         //enemy intitalization
         private Enemy enemy;
@@ -72,6 +76,10 @@ namespace Final_Project
             Player = Content.Load<Texture2D>("blue plater");
             Key = Content.Load<Texture2D>("KEY");
             Background_Music = Content.Load<SoundEffect>("BG_MUSIC");
+            CoinCollect = Content.Load<SoundEffect>("COINCOLLECT");
+            KeyCollect = Content.Load<SoundEffect>("KEYCOLLECT");
+            GameOver = Content.Load<SoundEffect>("GAMEOVER");
+            KeyPress = Content.Load<SoundEffect>("CLICK");
             Menu = Content.Load<SpriteFont>("Menu");
             player = new Player(new Vector2(100, 150), 5f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight , 20);
 
@@ -125,6 +133,8 @@ namespace Final_Project
 
             wallTexture = new Texture2D(GraphicsDevice, 1, 1);
             wallTexture.SetData(new[] {Color.White});
+
+            controller = new Controller(CoinCollect, KeyCollect, GameOver, KeyPress);
         }
 
         protected override void Update(GameTime gameTime)
