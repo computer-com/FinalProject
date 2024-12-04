@@ -12,10 +12,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Content\bin\DesktopGL\PLAYER.xnb" />
+    <None Remove="Content\download-removebg-preview %281%29.png" />
     <None Remove="Content\obj\DesktopGL\PLAYER.mgcontent" />
     <None Remove="Content\PLAYER.png" />
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\download-removebg-preview (1).png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icon.ico">
