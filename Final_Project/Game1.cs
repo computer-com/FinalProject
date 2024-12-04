@@ -85,7 +85,7 @@ namespace Final_Project
 
             Background_Music.Play();
             // Initialize Player
-            player = new Player(new Vector2(100, 150), 5f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight, 20);
+            player = new Player(new Vector2(100, 150), 5, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight, 20);
 
             // Initialize Enemies
             List<Vector2> enemyPositions = new List<Vector2>
@@ -111,7 +111,7 @@ namespace Final_Project
             {
                 // Pick a random texture from the list
                 Texture2D texture = enemyTextures[random.Next(enemyTextures.Count)];
-                enemies.Add(new Enemy(texture, enemyPositions[i], 4f, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight));
+                enemies.Add(new Enemy(texture, enemyPositions[i], 2, _graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight));
             }
 
 
@@ -168,10 +168,11 @@ namespace Final_Project
                     enemy.Update(gameTime, wallRectangles);
 
                     // Check for collision between player and enemy
-                    if (Vector2.Distance(player.Position, enemy.Position) < 60)
+                    if (Vector2.Distance(player.Position, enemy.Position) < 30)
                     {
                         controller.state = GameState.Menu; // Game Over
                         controller.Messages = "Game Over! You collided with an enemy.";
+                        controller.HasExited = true;
                         GameOver.Play();
                         break;
                     }
@@ -186,7 +187,7 @@ namespace Final_Project
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.DarkGray);
+            GraphicsDevice.Clear(Color.Black);
             _spriteBatch.Begin();
 
             //TODO: Add your drawing code here

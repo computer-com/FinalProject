@@ -27,7 +27,7 @@ namespace Final_Project
         public SoundEffect KeyPress;
         public SoundEffect GameOver;
 
-        public bool HasExited { get; private set; }
+        public bool HasExited { get;  set; }
 
         public GameState state { get; set; } = GameState.Menu;
         public List<Vector2> CoinPositions { get; set; }
