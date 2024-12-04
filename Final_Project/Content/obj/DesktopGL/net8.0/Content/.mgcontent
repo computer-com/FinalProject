@@ -4,12 +4,32 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/viren/Group7/Final_Project/Content/BG_MUSIC.wav</File>
-    <File>C:/Users/viren/Group7/Final_Project/Content/INDEX.png</File>
-    <File>C:/Users/viren/Group7/Final_Project/Content/Maze-Level1.png</File>
-    <File>C:/Users/viren/Group7/Final_Project/Content/Menu.spritefont</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/BG_MUSIC.wav</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/blue plater.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/CLICK.wav</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/Coin.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/COINCOLLECT.wav</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/download-removebg-preview (1).png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/ene-removebg-preview.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/Enemy.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/GAMEOVER.wav</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/INDEX.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/KEY.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/KEYCOLLECT.wav</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/Maze-Level1.png</File>
+    <File>C:/Users/devam/source/repos/Gf/Final_Project/Content/Menu.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
