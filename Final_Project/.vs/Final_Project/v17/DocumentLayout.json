@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|e:\\conestoga\\sem 3\\game programming with data structure\\final project\\group7\\final_project\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\devam\\source\\repos\\gf\\final_project\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|e:\\conestoga\\sem 3\\game programming with data structure\\final project\\group7\\final_project\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\devam\\source\\repos\\gf\\final_project\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|e:\\conestoga\\sem 3\\game programming with data structure\\final project\\group7\\final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|e:\\conestoga\\sem 3\\game programming with data structure\\final project\\group7\\final_project\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\devam\\source\\repos\\gf\\final_project\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|e:\\conestoga\\sem 3\\game programming with data structure\\final project\\group7\\final_project\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\devam\\source\\repos\\gf\\final_project\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|c:\\users\\devam\\source\\repos\\gf\\final_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FCAF30-2EA3-4E51-B2CF-09529352B21A}|Final_Project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +30,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -54,37 +62,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Enemy.cs",
+              "ToolTip": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Enemy.cs",
               "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:33:14.258Z"
+              "WhenOpened": "2024-11-30T15:33:14.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Player.cs",
+              "ToolTip": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T00:57:53.159Z"
+              "WhenOpened": "2024-11-29T00:57:53.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Controller.cs",
-              "DocumentMoniker": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Controller.cs",
+              "DocumentMoniker": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Controller.cs",
               "RelativeDocumentMoniker": "Controller.cs",
-              "ToolTip": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Controller.cs",
+              "ToolTip": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Controller.cs",
               "RelativeToolTip": "Controller.cs",
-              "ViewState": "AgIAAHoAAADAyszMzIwjwLoAAAAgAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T22:42:09.508Z",
               "EditorCaption": ""
@@ -93,26 +103,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Game1.cs",
+              "ToolTip": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAJ0AAAAAxszMzIwpwHsAAAAmAAAAAAAAAA==",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T22:41:47.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Program.cs",
+              "ToolTip": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:09:21.898Z"
+              "WhenOpened": "2024-12-01T01:09:21.898Z",
+              "EditorCaption": ""
             }
           ]
         }

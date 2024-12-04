@@ -238,19 +238,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\devam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Final_Project.csproj",
+      "projectUniqueName": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Final_Project.csproj",
       "projectName": "Final_Project",
-      "projectPath": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\Final_Project.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "E:\\conestoga\\Sem 3\\Game Programming with Data Structure\\Final Project\\Group7\\Final_Project\\obj\\",
+      "projectPath": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\Final_Project.csproj",
+      "packagesPath": "C:\\Users\\devam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devam\\source\\repos\\Gf\\Final_Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\devam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -306,7 +306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
