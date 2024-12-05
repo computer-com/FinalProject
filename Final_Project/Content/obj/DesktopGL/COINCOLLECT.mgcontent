@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/conestoga/Sem 3/Game Programming with Data Structure/Final Project/Group7/Final_Project/Content/COINCOLLECT.wav</SourceFile>
-  <SourceTime>2024-12-03T07:15:55.8244827-05:00</SourceTime>
-  <DestFile>E:/conestoga/Sem 3/Game Programming with Data Structure/Final Project/Group7/Final_Project/Content/bin/DesktopGL/COINCOLLECT.xnb</DestFile>
-  <DestTime>2024-12-03T07:38:44.8886084-05:00</DestTime>
+  <SourceFile>C:/Users/devam/source/repos/Gf/Final_Project/Content/COINCOLLECT.wav</SourceFile>
+  <SourceTime>2024-12-03T18:26:18.1365352-05:00</SourceTime>
+  <DestFile>C:/Users/devam/source/repos/Gf/Final_Project/Content/bin/DesktopGL/COINCOLLECT.xnb</DestFile>
+  <DestTime>2024-12-03T18:55:48.1880303-05:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>
