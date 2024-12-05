@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/conestoga/Sem 3/Game Programming with Data Structure/Final Project/Group7/Final_Project/Content/Coin.png</SourceFile>
-  <SourceTime>2024-10-02T15:23:38.3748403-04:00</SourceTime>
-  <DestFile>E:/conestoga/Sem 3/Game Programming with Data Structure/Final Project/Group7/Final_Project/Content/bin/DesktopGL/Content/Coin.xnb</DestFile>
-  <DestTime>2024-12-01T18:06:55.5387817-05:00</DestTime>
+  <SourceFile>C:/Users/devam/source/repos/Gf/Final_Project/Content/Coin.png</SourceFile>
+  <SourceTime>2024-12-03T18:26:18.1385194-05:00</SourceTime>
+  <DestFile>C:/Users/devam/source/repos/Gf/Final_Project/Content/bin/DesktopGL/Content/Coin.xnb</DestFile>
+  <DestTime>2024-12-03T18:26:52.3041896-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T13:05:56-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
